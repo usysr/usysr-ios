@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Stripe
 import Firebase
 import FirebaseUI
 

@@ -413,9 +413,6 @@ PODS:
   - SDWebImage (5.11.0):
     - SDWebImage/Core (= 5.11.0)
   - SDWebImage/Core (5.11.0)
-  - Stripe (21.4.0):
-    - Stripe/Stripe3DS2 (= 21.4.0)
-  - Stripe/Stripe3DS2 (21.4.0)
 
 DEPENDENCIES:
   - Firebase/Analytics
@@ -424,7 +421,6 @@ DEPENDENCIES:
   - JTAppleCalendar
   - KDCalendar (~> 1.8.9)
   - RealmSwift
-  - Stripe
 
 SPEC REPOS:
   trunk:
@@ -459,7 +455,6 @@ SPEC REPOS:
     - Realm
     - RealmSwift
     - SDWebImage
-    - Stripe
 
 SPEC CHECKSUMS:
   abseil: 6c8eb7892aefa08d929b39f9bb108e5367e3228f
@@ -493,8 +488,7 @@ SPEC CHECKSUMS:
   Realm: e523da9ade306c5ae87e85dc09fdef148d3e1cc1
   RealmSwift: 4f6758c3adbdcc87f7b7777107226532a077f61c
   SDWebImage: 7acbb57630ac7db4a495547fb73916ff3e432f6b
-  Stripe: 7c594b943abb65cf7bc28e37fd5124e65db3ce9e
 
-PODFILE CHECKSUM: 3f16283ff984f41175f10ae03cddffc7a0deeb97
+PODFILE CHECKSUM: f42d512808b60dfd52cd68a976f4b9132de48ef9
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.3

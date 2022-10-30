@@ -22,7 +22,6 @@
 		DE96012725E4D7D800995865 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE96012625E4D7D800995865 /* UserViewController.swift */; };
 		FB069A88252D5F6E0058868E /* LocationUser___FoodTruckFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB069A87252D5F6E0058868E /* LocationUser___FoodTruckFinderUITests.swift */; };
 		FB10046124177BA6000C8B70 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB10046024177BA6000C8B70 /* LoginViewController.swift */; };
-		FB100463241B4037000C8B70 /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB100462241B4037000C8B70 /* CheckoutViewController.swift */; };
 		FB11DFEB23A68DEB00FAB28B /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB11DFEA23A68DEB00FAB28B /* Spot.swift */; };
 		FB11DFED23A73EC600FAB28B /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB11DFEC23A73EC600FAB28B /* Session.swift */; };
 		FB11DFF023A73FD600FAB28B /* LocalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB11DFEF23A73FD600FAB28B /* LocalData.swift */; };
@@ -86,7 +85,6 @@
 		FB069A87252D5F6E0058868E /* LocationUser___FoodTruckFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LocationUser___FoodTruckFinderUITests.swift"; sourceTree = "<group>"; };
 		FB069A89252D5F6E0058868E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB10046024177BA6000C8B70 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		FB100462241B4037000C8B70 /* CheckoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
 		FB11DFEA23A68DEB00FAB28B /* Spot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot.swift; sourceTree = "<group>"; };
 		FB11DFEC23A73EC600FAB28B /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		FB11DFEF23A73FD600FAB28B /* LocalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalData.swift; sourceTree = "<group>"; };
@@ -273,7 +271,6 @@
 				FB29D21E23C70B6C00E6D051 /* FoodCalendarViewController.swift */,
 				FB1951422466751900B21085 /* SpotDetailsAlertController.swift */,
 				FB2D82EF246DF30100D10BCA /* FoodTabBarController.swift */,
-				FB100462241B4037000C8B70 /* CheckoutViewController.swift */,
 				FB2D82F2246FC83200D10BCA /* GeneralProfileAlertController.swift */,
 			);
 			path = foodtruckManager;
@@ -338,7 +335,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1120;
+				LastUpgradeCheck = 1340;
 				ORGANIZATIONNAME = "Adrenaline Life";
 				TargetAttributes = {
 					728DA3F42395783900564AAD = {
@@ -480,7 +477,6 @@
 				DE96012725E4D7D800995865 /* UserViewController.swift in Sources */,
 				FB195141246642EF00B21085 /* PaymentIntent.swift in Sources */,
 				FB2D82F0246DF30100D10BCA /* FoodTabBarController.swift in Sources */,
-				FB100463241B4037000C8B70 /* CheckoutViewController.swift in Sources */,
 				728DA3F92395783900564AAD /* AppDelegate.swift in Sources */,
 				FB69DAB323F28103001748A2 /* FoodtruckTableViewCell.swift in Sources */,
 				FB11DFEB23A68DEB00FAB28B /* Spot.swift in Sources */,
@@ -561,6 +557,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -621,6 +618,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;

@@ -38,18 +38,18 @@ class FoodCartViewController: UIViewController, UITableViewDataSource, UITableVi
             Utils().showAlertCancelOnly(context: self, title: "Empty Cart", message: "Please add a spot to your cart from the calendar.")
         } else {
             let alert = UIAlertController(title: "Checkout", message: "Are you sure you want to checkout? Total: $\(self.totalCost)", preferredStyle: .alert)
-            let acceptAction = UIAlertAction(title: "Pay", style: .destructive, handler: acceptCheckout)
+   //         let acceptAction = UIAlertAction(title: "Pay", style: .destructive, handler: acceptCheckout)
             let cancelAction = UIAlertAction(title: "Cancel", style: .destructive, handler: nil)
-            alert.addAction(acceptAction)
-            alert.addAction(cancelAction)
+ //           alert.addAction(acceptAction)
+   //         alert.addAction(cancelAction)
             self.present(alert, animated: true, completion: nil)
         }
         
     }
-    
+    /*
     func acceptCheckout(action:UIAlertAction){
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let checkoutVC = storyboard.instantiateViewController(withIdentifier: "CheckoutViewController") as! CheckoutViewController
+    //    let checkoutVC = storyboard.instantiateViewController(withIdentifier: "CheckoutViewController") as! CheckoutViewController
         checkoutVC.modalPresentationStyle = UIModalPresentationStyle.overCurrentContext
         checkoutVC.modalTransitionStyle = UIModalTransitionStyle.crossDissolve
         checkoutVC.checkoutVC = self
@@ -59,7 +59,7 @@ class FoodCartViewController: UIViewController, UITableViewDataSource, UITableVi
         self.present(checkoutVC, animated: true, completion: nil)
         print("Checkout Pressed")
     }
-    
+    */
     func buttonDesignSetup(){
         btnCheckoutC.fDesignCartCheckout()
 //        lblTotalCost.textColor = UIColor.fDarkBlue
