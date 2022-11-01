@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3194A7622911844100EC199C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3194A7612911844100EC199C /* GoogleService-Info.plist */; };
 		728DA3F92395783900564AAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728DA3F82395783900564AAD /* AppDelegate.swift */; };
 		728DA3FB2395783900564AAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728DA3FA2395783900564AAD /* SceneDelegate.swift */; };
 		728DA3FD2395783900564AAD /* AuthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728DA3FC2395783900564AAD /* AuthController.swift */; };
@@ -28,7 +29,6 @@
 		FB195141246642EF00B21085 /* PaymentIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB195140246642EF00B21085 /* PaymentIntent.swift */; };
 		FB1951432466751900B21085 /* SpotDetailsAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1951422466751900B21085 /* SpotDetailsAlertController.swift */; };
 		FB195145246736FB00B21085 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB195144246736FB00B21085 /* Utils.swift */; };
-		FB195147246B861200B21085 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB195146246B861100B21085 /* GoogleService-Info.plist */; };
 		FB29D21523C7034700E6D051 /* LocDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB29D21423C7034700E6D051 /* LocDashboardViewController.swift */; };
 		FB29D21723C70B0300E6D051 /* LocManageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB29D21623C70B0300E6D051 /* LocManageViewController.swift */; };
 		FB29D21923C70B1400E6D051 /* LocCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB29D21823C70B1400E6D051 /* LocCalendarViewController.swift */; };
@@ -66,7 +66,8 @@
 /* Begin PBXFileReference section */
 		0EBB8DCFA41D70C07154B365 /* Pods-Food Truck Finder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food Truck Finder.release.xcconfig"; path = "Target Support Files/Pods-Food Truck Finder/Pods-Food Truck Finder.release.xcconfig"; sourceTree = "<group>"; };
 		16E6A15F5A37C0A4A0BFA911 /* Pods_Food_Truck_Finder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Food_Truck_Finder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		728DA3F52395783900564AAD /* Food Truck Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Truck Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3194A7612911844100EC199C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		728DA3F52395783900564AAD /* USYSR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = USYSR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		728DA3F82395783900564AAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		728DA3FA2395783900564AAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		728DA3FC2395783900564AAD /* AuthController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthController.swift; sourceTree = "<group>"; };
@@ -91,7 +92,6 @@
 		FB195140246642EF00B21085 /* PaymentIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentIntent.swift; sourceTree = "<group>"; };
 		FB1951422466751900B21085 /* SpotDetailsAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotDetailsAlertController.swift; sourceTree = "<group>"; };
 		FB195144246736FB00B21085 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		FB195146246B861100B21085 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FB29D21423C7034700E6D051 /* LocDashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocDashboardViewController.swift; sourceTree = "<group>"; };
 		FB29D21623C70B0300E6D051 /* LocManageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocManageViewController.swift; sourceTree = "<group>"; };
 		FB29D21823C70B1400E6D051 /* LocCalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocCalendarViewController.swift; sourceTree = "<group>"; };
@@ -147,7 +147,7 @@
 		728DA3EC2395783900564AAD = {
 			isa = PBXGroup;
 			children = (
-				728DA3F72395783900564AAD /* Food Truck Finder */,
+				728DA3F72395783900564AAD /* USYSR */,
 				FB069A86252D5F6E0058868E /* LocationUser : FoodTruckFinderUITests */,
 				728DA3F62395783900564AAD /* Products */,
 				1EE02EA69013F8942C587E42 /* Pods */,
@@ -158,16 +158,15 @@
 		728DA3F62395783900564AAD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				728DA3F52395783900564AAD /* Food Truck Finder.app */,
+				728DA3F52395783900564AAD /* USYSR.app */,
 				FB069A85252D5F6E0058868E /* LocationUser : FoodTruckFinderUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		728DA3F72395783900564AAD /* Food Truck Finder */ = {
+		728DA3F72395783900564AAD /* USYSR */ = {
 			isa = PBXGroup;
 			children = (
-				FB2D82F424763D2E00D10BCA /* general */,
 				FB10045F24177B75000C8B70 /* login */,
 				DE8CEF0D23D27BF3008D0EEE /* views */,
 				FBFB2A6B23C459CB0075F81B /* locationManager */,
@@ -181,10 +180,10 @@
 				728DA3FE2395783900564AAD /* Main.storyboard */,
 				728DA4012395783A00564AAD /* Assets.xcassets */,
 				728DA4032395783A00564AAD /* LaunchScreen.storyboard */,
-				FB195146246B861100B21085 /* GoogleService-Info.plist */,
 				728DA4062395783A00564AAD /* Info.plist */,
+				3194A7612911844100EC199C /* GoogleService-Info.plist */,
 			);
-			path = "Food Truck Finder";
+			path = USYSR;
 			sourceTree = "<group>";
 		};
 		D56F0111C1F1174DB31A5FCD /* Frameworks */ = {
@@ -255,13 +254,6 @@
 			path = utils;
 			sourceTree = "<group>";
 		};
-		FB2D82F424763D2E00D10BCA /* general */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = general;
-			sourceTree = "<group>";
-		};
 		FBFB2A6A23C459B80075F81B /* foodtruckManager */ = {
 			isa = PBXGroup;
 			children = (
@@ -290,9 +282,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		728DA3F42395783900564AAD /* Food Truck Finder */ = {
+		728DA3F42395783900564AAD /* USYSR */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 728DA4092395783A00564AAD /* Build configuration list for PBXNativeTarget "Food Truck Finder" */;
+			buildConfigurationList = 728DA4092395783A00564AAD /* Build configuration list for PBXNativeTarget "USYSR" */;
 			buildPhases = (
 				E4A4BF2FC631F4D7D5CC3F3F /* [CP] Check Pods Manifest.lock */,
 				728DA3F12395783900564AAD /* Sources */,
@@ -305,9 +297,9 @@
 			);
 			dependencies = (
 			);
-			name = "Food Truck Finder";
+			name = USYSR;
 			productName = "Food Truck Finder";
-			productReference = 728DA3F52395783900564AAD /* Food Truck Finder.app */;
+			productReference = 728DA3F52395783900564AAD /* USYSR.app */;
 			productType = "com.apple.product-type.application";
 		};
 		FB069A84252D5F6E0058868E /* LocationUser : FoodTruckFinderUITests */ = {
@@ -348,7 +340,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 728DA3F02395783900564AAD /* Build configuration list for PBXProject "Food Truck Finder" */;
+			buildConfigurationList = 728DA3F02395783900564AAD /* Build configuration list for PBXProject "USYSR" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -361,7 +353,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				728DA3F42395783900564AAD /* Food Truck Finder */,
+				728DA3F42395783900564AAD /* USYSR */,
 				FB069A84252D5F6E0058868E /* LocationUser : FoodTruckFinderUITests */,
 			);
 		};
@@ -374,11 +366,11 @@
 			files = (
 				FBBF05B7240CD457002CA6FD /* LocationSpotTableViewCell.xib in Resources */,
 				FB69DAB423F28103001748A2 /* FoodtruckTableViewCell.xib in Resources */,
+				3194A7622911844100EC199C /* GoogleService-Info.plist in Resources */,
 				728DA4052395783A00564AAD /* LaunchScreen.storyboard in Resources */,
 				728DA4022395783A00564AAD /* Assets.xcassets in Resources */,
 				FB69DAB023F280EC001748A2 /* CartTableViewCell.xib in Resources */,
 				728DA4002395783900564AAD /* Main.storyboard in Resources */,
-				FB195147246B861200B21085 /* GoogleService-Info.plist in Resources */,
 				DE8CEF1123D27C17008D0EEE /* LocationTableViewCell.xib in Resources */,
 				DE2610832412F0280093F8DB /* FoodTableViewCell.xib in Resources */,
 			);
@@ -506,7 +498,7 @@
 /* Begin PBXTargetDependency section */
 		FB069A8B252D5F6E0058868E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 728DA3F42395783900564AAD /* Food Truck Finder */;
+			target = 728DA3F42395783900564AAD /* USYSR */;
 			targetProxy = FB069A8A252D5F6E0058868E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -653,16 +645,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 35;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 397GUX7AQZ;
-				INFOPLIST_FILE = "Food Truck Finder/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/USYSR/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2.8;
-				PRODUCT_BUNDLE_IDENTIFIER = com.foodtruckfinder.bham;
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.usysr.report;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -675,16 +667,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 35;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 397GUX7AQZ;
-				INFOPLIST_FILE = "Food Truck Finder/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/USYSR/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2.8;
-				PRODUCT_BUNDLE_IDENTIFIER = com.foodtruckfinder.bham;
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.usysr.report;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -732,7 +724,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		728DA3F02395783900564AAD /* Build configuration list for PBXProject "Food Truck Finder" */ = {
+		728DA3F02395783900564AAD /* Build configuration list for PBXProject "USYSR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				728DA4072395783A00564AAD /* Debug */,
@@ -741,7 +733,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		728DA4092395783A00564AAD /* Build configuration list for PBXNativeTarget "Food Truck Finder" */ = {
+		728DA4092395783A00564AAD /* Build configuration list for PBXNativeTarget "USYSR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				728DA40A2395783A00564AAD /* Debug */,

@@ -1,9 +1,9 @@
 //
 //  ViewController.swift
-//  Food Truck Finder
+//  USYSR
 //
-//  Created by Chazz Romeo on 12/2/19.
-//  Copyright © 2020 Foodtruck Finder. All rights reserved.
+//  Created by Chazz Romeo & Michael Cather on 12/2/19
+//  Copyright © 2020 USYSR. All rights reserved.
 //
 
 import UIKit

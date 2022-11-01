@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "728DA3F42395783900564AAD"
-               BuildableName = "Food Truck Finder.app"
-               BlueprintName = "Food Truck Finder"
-               ReferencedContainer = "container:Food Truck Finder.xcodeproj">
+               BuildableName = "USYSR.app"
+               BlueprintName = "USYSR"
+               ReferencedContainer = "container:USYSR.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -31,9 +31,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "728DA3F42395783900564AAD"
-            BuildableName = "Food Truck Finder.app"
-            BlueprintName = "Food Truck Finder"
-            ReferencedContainer = "container:Food Truck Finder.xcodeproj">
+            BuildableName = "USYSR.app"
+            BlueprintName = "USYSR"
+            ReferencedContainer = "container:USYSR.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
@@ -44,7 +44,7 @@
                BlueprintIdentifier = "FB069A84252D5F6E0058868E"
                BuildableName = "LocationUser : FoodTruckFinderUITests.xctest"
                BlueprintName = "LocationUser : FoodTruckFinderUITests"
-               ReferencedContainer = "container:Food Truck Finder.xcodeproj">
+               ReferencedContainer = "container:USYSR.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -64,9 +64,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "728DA3F42395783900564AAD"
-            BuildableName = "Food Truck Finder.app"
-            BlueprintName = "Food Truck Finder"
-            ReferencedContainer = "container:Food Truck Finder.xcodeproj">
+            BuildableName = "USYSR.app"
+            BlueprintName = "USYSR"
+            ReferencedContainer = "container:USYSR.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -81,9 +81,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "728DA3F42395783900564AAD"
-            BuildableName = "Food Truck Finder.app"
-            BlueprintName = "Food Truck Finder"
-            ReferencedContainer = "container:Food Truck Finder.xcodeproj">
+            BuildableName = "USYSR.app"
+            BlueprintName = "USYSR"
+            ReferencedContainer = "container:USYSR.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
