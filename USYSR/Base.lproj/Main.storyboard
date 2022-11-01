@@ -55,7 +55,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hbx-0K-h2U" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1419" y="-2291"/>
+            <point key="canvasLocation" x="-1313" y="-2291"/>
         </scene>
         <!--Dashboard-->
         <scene sceneID="Sr2-z5-z1f">
@@ -2063,9 +2063,9 @@
     <inferredMetricsTieBreakers>
         <segue reference="Gs3-xQ-Jid"/>
         <segue reference="dXF-T8-oTL"/>
-        <segue reference="0Ue-Wo-8Tr"/>
-        <segue reference="oi7-d7-eg3"/>
-        <segue reference="GmC-s4-Ihh"/>
+        <segue reference="kQP-Zn-Uze"/>
+        <segue reference="WLW-0U-G6U"/>
+        <segue reference="64j-oh-hH5"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="ProPicTransparent" width="589" height="587"/>

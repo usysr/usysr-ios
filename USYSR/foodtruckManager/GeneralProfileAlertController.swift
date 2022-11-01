@@ -82,6 +82,7 @@ class GeneralProfileAlertController: UIViewController, UIPickerViewDelegate, UIP
 //        bgView.fSpotDetailsPopUpDesign()
         
         // Connect data:
+        /*
         self.foodTypePicker.delegate = self
         self.foodTypePicker.dataSource = self
         
@@ -91,7 +92,7 @@ class GeneralProfileAlertController: UIViewController, UIPickerViewDelegate, UIP
          foodTypeData = ["Mexican", "Italian", "Indian", "Cajun", "Soul", "Asian", "Mediterranean", "American", "Caribbean", "Sandwiches", "Pizza", "Vegan", "Acai Bowl", "Vegetarian"]
         
          subFoodTypeData = ["Mexican", "Italian", "Indian", "Cajun", "Soul", "Asian", "Mediterranean", "American", "Caribbean", "Sandwiches", "Pizza", "Vegan", "Acai Bowl", "Vegetarian", "None"]
-        
+        */
 
         // Do any additional setup after loading the view.
         if let user = Session.getInstance()?.user, let sess = Session.getInstance() {
@@ -106,7 +107,7 @@ class GeneralProfileAlertController: UIViewController, UIPickerViewDelegate, UIP
                 self.isLocationUser = true
                 setupLocationAuth()
             } else {
-                setupFoodTruckAuth()
+              //  setupFoodTruckAuth()
             }
         } else {
             //TODO:
@@ -128,6 +129,7 @@ class GeneralProfileAlertController: UIViewController, UIPickerViewDelegate, UIP
         }
     }
     
+    /*
     func setupFoodTruckAuth() {
         editName.text = user?.name
         editEmail.text = user?.email
@@ -148,7 +150,7 @@ class GeneralProfileAlertController: UIViewController, UIPickerViewDelegate, UIP
         }
         //if statement for which position to put switch
     }
-   
+   */
     func setupLocationAuth() {
         editName.text = user?.name
         editEmail.text = user?.email
